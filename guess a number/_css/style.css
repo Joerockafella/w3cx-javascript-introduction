@@ -1,0 +1,77 @@
+body {
+    background: #3C2818;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #F6740F;
+    margin-top: 200px;
+  }
+  .container {
+    text-align: center;
+    margin-top: 10% 
+  }
+  
+  input {
+       width: 50%;
+      padding: 8px 12px ;
+      margin: 8px 0;
+      font-size: 14px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 9px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #B86829;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #767573;
+  }
+  
+  button:hover {background-color: #C4BD64}
+  
+  button:active {
+    background-color: #C4BD64;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  p {
+    color: #C4BD64;
+    font-size: 20px;
+  }
+h2 {
+    color: rgb(10, 10, 10);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    width: 230px;
+    -webkit-animation-name: congrats; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.1s; /* Safari 4.0 - 8.0 */
+    animation-name: congrats;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes congrats {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes congrats {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+    
